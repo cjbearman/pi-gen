@@ -79,4 +79,5 @@ echo "ENABLE_SSH=1" >> config
 echo "CLEAN=1" >> config
 
 sudo apt-get install -y coreutils quilt parted qemu-user-static debootstrap zerofree pxz zip dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl
-./build-docker.sh
+#./build-docker.sh
+./build.sh
